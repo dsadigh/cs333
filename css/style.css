@@ -45,3 +45,11 @@ body p, body a, body table{
 .label-reading {
     background-color: SteelBlue;
 }
+
+.label-presentation {
+    background-color: #EB984E;
+}
+
+.label-due {
+    background-color: #CD6155;
+}
