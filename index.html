@@ -9,6 +9,8 @@
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -28,9 +30,10 @@
 					<br/>
 					<h1>CS 333: Safe and Interactive Robotics</h2>
 					<h3>Fall 2018-2019, Class: Tue, Thu 1:30-2:50pm, School of Education 334</h3>
-					<br>
-          			<img alt="" class="pull-right" src="./images/frontfig-cs333.png" style="width: 70%">
-					<!--img alt="" class="pull-right" src="./images/CS333-Pull-v1.jpg" style="width: 100%"-->
+					<br/>
+          			<img alt="" class="pull" src="./images/frontfig-cs333-v2.jpg" style="width: 100%">
+					<br/>
+          			<!--img alt="" class="pull-right" src="./images/CS333-Pull-v1.jpg" style="width: 100%"-->
 					<!--<div class="carousel slide" id="carousel-25687">
 					<ol class="carousel-indicators">
 						<li class="active" data-slide-to="0" data-target="#carousel-25687"> </li>
@@ -42,9 +45,7 @@
           </div>
           </div>-->
 					<h3>Description:</h3>
-					<p>Once confined to the manufacturing floor, robots are quickly entering the public space at multiple levels: drones, surgical robots, service robots, and self-driving cars are becoming tangible technologies impacting the human experience. Our goal in this class is to learn about and design algorithms that enable robots to reason about their actions, interact with one another, the humans, and the environment they live in, as well as plan safe strategies that humans can trust and rely on.</p>
-					<p>This is a project-based graduate course that studies algorithms in formal methods, control theory, and robotics, which can improve the state-of-the-art human-robot systems. We focus on designing new algorithms for enhancing safe and interactive autonomy.</p>
-					<br>
+					<p>As the field of robotics is quickly emerging, one critical and challenging subject is ensuring that robotic systems can work safely with humans. This course covers a diverse set of topics that focus on addressing the most critical aspects of building interactive and safe autonomous systems. Students will practice essential research skills including critiquing papers, debating, reviewing, writing project proposals, and presenting ideas effectively.</p>
 					<h3>Format:</h3>
 					<p>The course is a combination of lecture and reading sessions. The lectures discuss the fundamentals of motion planning, formal methods applied in robotics, learning from demonstration, intent inference, and shared control required for modeling and design of safe and interactive autonomy for human-robot systems. During the reading sessions, students present and discuss recent contributions in this area. Throughout the semester, each student works on a related research project that they present at the end of the semester.</p>
 					<br>
@@ -82,19 +83,21 @@
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Date</th>
-							<th>Lecture</th>
-							<th>Handouts / Deadlines</th>
-							<th>Notes</th>
+							<th style="width: 12%">Date</th>
+							<th style="width: 23%">Lecture</th>
+							<th style="width: 50%">Handouts / Deadlines</th>
+							<th style="width: 15%">Notes</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td>Week 1 Tue, Sep 25</td>
-							<td>Introduction to Safe and Interactive Robotics</td>
+						<tr class="active">
+							<td><b>Week 1</b><br/> 
+								Tue, Sep 25
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i>Introduction to Safe and Interactive Robotics</td>
 							<td>
 								<ul>
-									<a href="handouts/cs333_syllabus.pdf">Syllabus</a></td>
+									<li><a href="handouts/cs333_syllabus.pdf">Syllabus</a></li>
 								</ul>
 							<td>
 								<a href="handouts/template.tex">Template for Scribes</a>
@@ -102,33 +105,38 @@
 								<br><a href="handouts/first_lecture_notes.pdf">Slides</a>
 							</td>
 						</tr>
-						<tr>
-							<td>Week 1 Thu, Sep 27</td>
-							<td><i>Lecture</i>:&ensp; Motion Planning</td>
+						<tr class="active">
+							<td><b>Week 1</b><br/> 
+								Thu, Sep 27
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Motion Planning</td>
 							<td>
 								<ul>
 									<li>Spatial Planning: A Configuration Space Approach. Lozano-Perez. (1983).</li>
 									<li>Analysis of Probabilistic Roadmaps for Path Planning. Kavraki, et al. (1988).</li>
 									<li>Randomized Kinodynamic Planning. LaValle, et al. (2001).</li>
 									<li>Path Planning in Expansive Configuration Spaces. Hsu, et al. (1997).</li>
-<!-- 								<li>Belief Space Planning Assuming Maximum Likelihood Observations. Platt, et al. (2010).</li>
- -->								</ul>
+								</ul>
 							</td>
 							<td>-, -
 							<br><a href="">Notes</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Week 2 Tue, Oct 02</td>
-							<td><i>Lecture</i>:&ensp; Trajectory Optimization</td>
+							<td><b>Week 2</b><br/> 
+								Tue, Oct 02
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Trajectory Optimization</td>
 							<td></td>
 							<td>-, -
 							<br><a href="">Notes</a>
 							</td>
 						</tr>
 						<tr>
-							<td>Week 2 Thu, Oct 04</td>
-							<td><i>Lecture</i>:&ensp; Trajectory Optimization + Task and Motion Planning</td>
+							<td><b>Week 2</b><br/> 
+								Thu, Oct 04
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Trajectory Optimization + Task and Motion Planning</td>
 							<td>
 								<ul>
 								</ul>
@@ -137,19 +145,26 @@
 							<br><a href="">Notes</a>
 							</td>
 						</tr>
-							<td>Week 3 Tue, Oct 9</td>
-							<td><i>Reading</i>:&ensp; Task and Motion Planning</td>
+						<tr class="active">
+							<td><b>Week 3</b><br/> 
+								Tue, Oct 9
+							</td>
+							<td><i><span class="label label-reading text-base">Reading</span></i> Task and Motion Planning</td>
 							<td>
 								<ul>
+									<li> <a href="http://lis.csail.mit.edu/pubs/tlp/IJRRBelFinal.pdf"> P1: Integrated task and motion planning in belief space.</a> Kaelbling et al. (2013)</li>
+									<li> <a href="http://www.roboticsproceedings.org/rss14/p44.pdf"> P2: Differentiable Physics and Stable Modes for Tool-Use and Manipulation Planning.</a> Toussaint et al. (2018)</li>
 								</ul>
 							</td>
-							<td>-, -
-							<br><a href="">Notes</a>
+							<td>P1 Pros: Erdem, Cons: TBD <br/>
+								P2 Pros: Shushman, Cons: TBD</a>
 							</td>
 						</tr>
-						<tr>
-							<td>Week 3 Thu, Oct 11</td>
-							<td><i>Lecture</i>:&ensp; Learning from Demonstration</td>
+						<tr class="active">
+							<td><b>Week 3</b><br/> 
+								Thu, Oct 11
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Learning from Demonstration</td>
 							<td>
 								<ul>
 									<li>Maximum Margin Planning. Ratliff, et al. (2006).</li>
@@ -161,150 +176,174 @@
 							<td>-, -</td>
 						</tr>
 						<tr>
-							<td>Week 4 Tue, Oct 16</td>
-							<td><i>Lecture</i>:&ensp; Learning from Demonstration</td>
+							<td><b>Week 4</b><br/> 
+								Tue, Oct 16
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Learning from Demonstration</td>
 							<td>
 								<ul>
-									<li><a href="http://journals.sagepub.com/doi/abs/10.1177/0278364915619772"> P1: Socially Compliant Mobile Robot Navigation via IRL.</a> Kretzschmar, et al. (2016).</li> <i><b> (Pros: Sumeet, Cons: Karen) </b></i>.
-									<li><a href="http://ieeexplore.ieee.org.stanford.idm.oclc.org/document/7139282/?reload=true"> P2: Predicting Human Reaching Motion in Collaborative Tasks using Inverse Optimal Control and Iterative re-planning.</a> Mainprice, et al. (2015).</li> <i><b> (Pros: Sharon, Cons: Hans)</b></i>.
+									<li>Socially Compliant Mobile Robot Navigation via IRL.</a> Kretzschmar, et al. (2016).</li>
+									<li>Predicting Human Reaching Motion in Collaborative Tasks using Inverse Optimal Control and Iterative re-planning.</a> Mainprice, et al. (2015).</li>
 									<li>Trajectories and Keyframes for Kinesthetic Teaching. Akgun, et al. (2012).</li>
-									<li>Designing Robot Learners that Ask Good Questions. Cakmak, et al. (2012).</li>
-									<li>Using perspective taking to learn from ambiguous demonstrations. Breazeal, et al. (2012).</li>
-									<li>Understanding Intentions of Others. Meltzoff, et al. (1995).</li>
 									<li>Infant Imitation After a 1-Week Delay. Meltzoff, et al. (1988).</li>
-									<li>Rational Imitation in Preverbal Infants. Gergely, et al. (2002).</li>
 									<li>Planning Based Prediction for Pedestrians. Ziebart, et al. (2009).</li>
 									<!--a href="https://arxiv.org/abs/1602.04450"> P2: Bayesian Optimization with Safety Constraints: Safe and Automatic Parameter Tuning in Robotics. </a> Berkenkamp, et al. <i><b>(Pros: Lin, Cons: Hans)</b>.</i>
 									<br><a href="http://www.roboticsconference.org/static/papers/63.pdf"> P3: Safe Visual Navigation via Deep Learning and Novelty Detection. </a> Richter, et al. <i><b>(Pros: Mingyu, Cons: Maxime)</b>. </i-->
 								</ul>
 							</td>
-							<td>-, -</td>
+							<td>
+							</td>
 						</tr>
-						<tr class="warning">
-							<td>Week 4 Thu, Oct 18</td>
-							<td><i>Reading</i>:&ensp; LfD + Preference based Learning</td>
+						<tr>
+							<td><b>Week 4</b><br/> 
+								Thu, Oct 18
+							</td>
+							<td><i><span class="label label-reading text-base">Reading</span></i> LfD + Preference based Learning</td>
 							<td>
 								<b>Project Proposal Reports Due</b><br>
 								<ul>
-									<!--a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Nguyen_Deep_Neural_Networks_2015_CVPR_paper.pdf"> P1: Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images. </a> Nguyen, et al. <i><b>(Pros: Nipun, Cons: Kyle)</b>.</i>
-									<br><a href="https://arxiv.org/pdf/1412.6572.pdf"> P2: Explaining and Harnesssing Adversarial Examples.</a> Goodfellow, et al. <i><b>(Pros: -, Cons: -)</b>.</i>
-									<br><a href="http://yosinski.com/media/papers/Yosinski__2015__ICML_DL__Understanding_Neural_Networks_Through_Deep_Visualization__.pdf"> P3: Understanding Neural Networks Through Deep Visualization.</a> Yosinski, et al. <i><b>(Pros: Pengda, Cons: Shane)</b>.</i>
-									<li>Exploring the Space of Adversarial Images. Tabacof, et al. (2015).</li>
-									<li>The Limitations of Deep Learning in Adversarial Settings. Papernot, et al. (2016).</li>
-									<li>Adversarial Manipulation of Deep Representations. Sabour, et al. (2015).</li-->
+									<li><a href="">P1: Generative Adversarial Imitation Learning.</a> Ho et al. (2016)</li>
+									<li><a href="https://arxiv.org/abs/1703.07326">P2: One Shot Imitation Learning</a> Duan et al. (2017)</li>
 								</ul>
 							</td>
-							<td>-, -</td>
+							<td>P1 Pros: TBD, Cons: TBD <br/>
+								P2 Pros: TBD, Cons: TBD
+							</td>
 						</tr>
-						<tr class="warning">
-							<td>Week 5 Tue, Oct 23</td>
+						<tr class="active">
+							<td><b>Week 5</b><br/> 
+								Tue, Oct 23
+							</td>
 							<td></td>
 							<td><b>Project Proposal Presentations</b><br>
 							<td></td>
 						</tr>
-						<tr>
-							<td>Week 5 Thu, Oct 25</td>
-							<td><i>Reading</i>:&ensp; Safe Learning</td>
+						<tr class="active">
+							<td><b>Week 5</b><br/> 
+								Thu, Oct 25
+							</td>
+							<td><i><span class="label label-reading text-base">Reading</span></i> Safe Learning</td>
 							<td>
 								<ul>
-									<a href="http://people.eecs.berkeley.edu/~jfisac/papers/General_Safe_Learning.pdf"> P1: A General Safety Framework for Learning-Based Control in Uncertain Robotic Systems.</a> Fisac, et al. <i><b>(Pros: Hesam, Cons: Sumeet)</b>.</i>
-									<li>Concrete Problems in AI Safety. Amodei, et al. (2016).</li>
+									<li><a href="https://arxiv.org/pdf/1602.04450.pdf"> P1: Bayesian Optimization with Safety Constraints: Safe and Automatic Parameter Tuning in Robotics.</a> Berkenkamp, et al. (2016)
+									<li><a href="https://dorsa.fyi/publications/sadigh2017active.pdf">P2: Active Preference-Based Learning of Reward Functions.</a> Sadigh, et al. (2017)</li>
 									<li>Reachability-based Safe Learning with Gaussian Processes. Akametalu, et al. (2014).</li>
 									<li>Safe Exploration for Optimization with Gaussian Processes. Sui, et al. (2015).</li>
 									<li>Safe Control under Uncertainty with Probabilistic Signal Temporal Logic. Sadigh, et al. (2016).</li>
 									<li>Safe Visual Navigation via Deep Learning and Novelty Detection. Richter, et al. (2017).</li>
-									<li>Diagnosis and Repair from Signal Temporal Logic Specifications. Ghosh, et al. (2016).</li>
 								</ul>
 							</td>
-							<td>-, -</td>
+							<td>P1 Pros: TBD, Cons: TBD <br/>
+								P2 Pros: TBD, Cons: TBD
+							</td>
 						</tr>
 						<tr>
-							<td>Week 6 Tue, Oct 30</td>
-							<td><i>Guest Lecture</i>:&ensp; <br>
+							<td><b>Week 6</b><br/> 
+								Tue, Oct 30
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Guest Lecture <br>
 							<td><b>TBD</b></td>
 							<td></td>
 						</tr>
 						<tr>
-							<td>Week 6 Thu, Nov 01</td>
-							<td><i>Guest Lecture</i><br>
+							<td><b>Week 6</b><br/> 
+								Thu, Nov 01
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Guest Lecture<br>
 							<td><b>TBD</b></td>
 							<td></td>
 						</tr>
-						<tr>
-							<td>Week 7 Tue, Nov 06</td>
-							<td><i>Reading</i>:&ensp; Intent Inference</td>
+						<tr class="active">
+							<td><b>Week 7</b><br/> 
+								Tue, Nov 06
+							</td>
+							<td><i><span class="label label-reading text-base">Reading</span></i> Intent Inference</td>
 							<td>
 								<ul>
-									<li><a href="http://www.roboticsproceedings.org/rss11/p32.pdf"> P1: Shared Autonomy via Hindsight Optimization.</a> Javdani, et al. (2015).</li> <i><b> (Pros: Yuhang, Cons: Gene) </b></i>
-									<li><a href="http://repository.cmu.edu/cgi/viewcontent.cgi?article=2004&context=robotics"> P2: Generating Legible Motion.</a> Dragan, et al. (2013).</li><i><b> (Pros: Gleb, Cons: Haruki) </b></i>
+									<li><a href="http://www.roboticsproceedings.org/rss11/p32.pdf"> P1: Shared Autonomy via Hindsight Optimization.</a> Javdani, et al. (2015).</li>
+									<li><a href="http://repository.cmu.edu/cgi/viewcontent.cgi?article=2004&context=robotics"> P2: Generating Legible Motion.</a> Dragan, et al. (2013).</li>
 									<li>Goal Inference as Inverse Planning. Baker, et al. (2007).</li>
 									<li>Intention-Aware Motion Planning. Bandyopadhyay, et al. (2013).</li>
-									<li>Manipulating Mental States through Physical Action. Gray, et al. (2014).</li>
-									<li>Generating Plans that Predict Themselves. Fisac, et al. (2016).</li>
 									<li>Expressing Thought: Improving Robot Readability with Animation Principles. Takayama, et al. (2011).</li>
-									<li>Anticipation in Robot Motion. Gielniak, et al. (2011).</li>
-									<li>Robot Navigation in Dense Human Crowds. Trautman, et al. (2013).</li>
 									<li>Planning for Autonomous Cars that Leverages Effects on Human Actions. Sadigh, et al. (2016).</li>
-									<li>Information Gathering Actions over Human Internal State. Sadigh, et al. (2016).</li>
 									<li>Robot Planning with Mathematical Models of Human State and Action. Dragan. (2017).</li>
 									<li>Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model. Nikolaidis, et al. (2016).</li>
 								</ul>
 							</td>
-							<td></td>
+							<td>P1 Pros: TBD, Cons: TBD <br/>
+								P2 Pros: TBD, Cons: TBD
+							</td>
 						</tr>
-						<tr >
-							<td>Week 7 Tue, Nov 08</td>
-							<td><i>Reading</i>:&ensp; Shared Control</td>
+						<tr class="active">
+							<td><b>Week 7</b><br/> 
+								Tue, Nov 08
+							</td>
+							<td><i><span class="label label-reading text-base">Reading</span></i> Shared Control</td>
 							<td>
 								<ul>
+									<li><a href="https://link.springer.com/content/pdf/10.1007%2Fs10514-018-9746-1.pdf">P1: Planning for Cars that Coordinate with People: Leveraging Effects on Human Actions for Planning and Active Information Gathering over Human Internal State.</a> Sadigh et al.(2018)</li>
+									<li><a href="https://arxiv.org/pdf/1503.07619.pdf">P2: Shared Autonomy via Hindsight Optimization</a>. Srinivasa et al. (2016)</li>
 								</ul>
 							</td>
-							<td>-, -</td>
+							<td>P1 Pros: TBD, Cons: TBD <br/>
+								P2 Pros: TBD, Cons: TBD
+							</td>
 						</tr>
 						<tr>
-							<td>Week 8 Tue, Nov 13</td>
-							<td><i>Reading</i>:&ensp; Communication and Coordination</td>
+							<td><b>Week 8</b><br/> 
+								Tue, Nov 13
+							</td>
+							<td><i><span class="label label-reading text-base">Reading</span></i> Communication and Coordination</td>
 							<td>
 								<ul>
-									<li> <a href = "http://papers.nips.cc/paper/7253-inverse-reward-design.pdf">P1: Inverse Reward Design.</a> Hadfield-Menell, et al. (2017).</li><i><b> (Pros: Vikranth, Cons: Karen) </b></i>
-									<li>Learning Behavior Styles with Inverse Reinforcement Learning. Lee, et al. (2010).</li>
+									<li> <a href="">P1: Force-Amplifying N-robot Transport System (Force-ANTS) for cooperative planar manipulation without communication.</a> Schwager et al. (2016) </li>
+									<li> <a href="https://www.ri.cmu.edu/pub_files/2013/3/legiilitypredictabilityIEEE.pdf"> P2: Legibility and Predictability of Robot Motion.</a> Dragan et al. (2013)</li>
+									<li> Inverse Reward Design. Hadfield-Menell, et al. (2017).</li>
 									<li>Knowledge and implicature: Modeling language understanding as social cognition. Goodman, et al. (2013).</li>
 									<li>Coordination Mechanisms in Human-Robot Collaboration. Mutlu, et al. (2013).</li>
-									<li>Conversational Gaze Aversion for Humanlike Robots. Andrist, et al. (2014).</li>
 									<li>Robot Deictics: How Gesture and Context Shape Referential Communication. Sauppé, et al. (2014).</li>
-
 								</ul>
 							</td>
-							<td>-, -</td>
+							<td>P1 Pros: TBD, Cons: TBD <br/>
+								P2 Pros: TBD, Cons: TBD
+							</td>
 						</tr>
-						<tr class="warning">
-							<td>Week 8 Thu, Nov 15</td>
-							<td><i>Reading</i>:&ensp; Collaboration</td>
+						<tr>
+							<td><b>Week 8</b><br/> 
+								Thu, Nov 15
+							</td>
+							<td><i><span class="label label-reading text-base">Reading</span></i> Collaboration</td>
 							<td><b> Project Milestone Reviews Due</b>
 								<ul>
-									<li><a href="https://arxiv.org/abs/1606.03137"> P1: Cooperative Inverse Reinforcement Learning.</a> Hadfield-Menell, et al. (2016).</li> <i><b> (Pros: Shane, Cons: Nipun) </b></i>
-									<li><a href= "http://cs.brown.edu/courses/csci2951-k/papers/tellex14.pdf"> P2: Asking for Help Using Inverse Semantics. </a> Tellex, et al. (2014).</li> <i><b> (Pros: Kyle, Cons: Mingyu)</b></i>
+									<li><a href= "http://delivery.acm.org/10.1145/2910000/2906845/p75-nikolaidis.pdf?ip=171.66.208.130&id=2906845&acc=ACTIVE%20SERVICE&key=AA86BE8B6928DDC7%2E0AF80552DEC4BA76%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1537731735_e3f4dd293bcf46851787c645db6284bc"> P1: Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model. </a> Nikolaidis, et al. (2014).</li>
+									<li><a href="https://arxiv.org/abs/1606.03137"> P2: Cooperative Inverse Reinforcement Learning.</a> Hadfield-Menell, et al. (2016).</li>
 									<li>Implicitly Assisting Humans to Choose Good Grasps in Robot to Human Handovers. Bestick, et al. (2016).</li>
 									<li>Human-Robot Cross-Training. Nikolaidis, et al. (2013).</li>
 								</ul>
 							</td>
-							<td></td>
+							<td>P1 Pros: TBD, Cons: TBD <br/>
+								P2 Pros: TBD, Cons: TBD
+							</td>
 						</tr>
 						<tr class="active">
-							<td>Week 9 Tue, Nov 20</td>
+							<td><b>Week 9</b><br/>
+								Tue, Nov 20
+							</td>
 							<td>Thanksgiving Break</td>
 							<td></td>
 							<td></td>
 						</tr>
 						<tr class="active">
-							<td>Week 9 Thu, Nov 22</td>
+							<td><b>Week 9</b> Thu, Nov 22</td>
 							<td>Thanksgiving Break</td>
 							<td></td>
 							<td></td>
 						</tr>
 						<tr>
-							<td>Week 10 Tue, Nov 27</td>
-							<td><i>Lecture</i>:&ensp; Formal Methods in Robotics</td>
+							<td><b>Week 10</b><br/> 
+								Tue, Nov 27
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Formal Methods in Robotics</td>
 							<td>
 								<ul>
 									<li>Church’s Problem Revisited. Kupferman and Vardi. (1999).</li>
@@ -319,28 +358,36 @@
 							</td>
 							<td>-, -</td>
 						</tr>
-						<tr class="warning">
-							<td>Week 10 Thu, Nov 29</td>
-							<td><i>Project Presentation</i></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr class="warning">
-							<td>Week 11 Tue, Dec 04</td>
-							<td><i>Project Presentation</i></td>
-							<td></td>
-							<td></td>
-						</tr>
 						<tr>
-							<td>Week 11 Thu, Dec 06</td>
-							<td><i>Guest Lecture</i>:&ensp; </td>
+							<td><b>Week 10</b><br/> 
+								Thu, Nov 29
+							</td>
+							<td><i>Project Presentation</i></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="active">
+							<td><b>Week 11</b><br/> 
+								Tue, Dec 04
+							</td>
+							<td><i>Project Presentation</i></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="active">
+							<td><b>Week 11</b><br/> 
+								Thu, Dec 06
+							</td>
+							<td><i><span class="label label-lecture text-base">Lecture</span></i> Guest Lecture </td>
 							<td><b>TBD</b></td>
 							<td>-, -</td>
 						</tr>
-						<tr class="warning">
-							<td>Week 12 Tue, Dec 11</td>
+						<tr>
+							<td><b>Week 12</b><br/> 
+								Tue, Dec 11
+							</td>
 							<td><b>Project Reports</b></td>
-							<td><b> deadline at midnight (firm)</b></td>
+							<td><b> Deadline at midnight (Firm)</b></td>
 							<td></td>
 						</tr>
 					</tbody>
